@@ -14,22 +14,6 @@ body {
   background-position: left right;
 }
 
-.hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(img/bg-weddings-b.jpg);
-  opacity: 0.5;
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
-  filter: grayscale();
-  -webkit-filter: grayscale();
-}
-
 .hero {
   position: relative;
   min-height: 100vh;

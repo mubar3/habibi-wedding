@@ -34,17 +34,41 @@
 
     <link rel="stylesheet" href="style.css" />
   </head>
+  <style>
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url(img/bg-weddings-b2.jpg);
+      opacity: 0.5;
+      background-size: cover;
+      background-position: center;
+      z-index: -1;
+      filter: grayscale();
+      -webkit-filter: grayscale();
+    }
+  </style>
 
   <body>
     <section
       id="hero"
       class="hero w-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
-    >
+      >
       <div>
         <h4>Kepada <span>Bapak/Ibu/Saudara/i,</span></h4>
         <h1>Chabibi & Isalufi</h1>
-        <p>Akan melangsungkan akad nikah dalam:</p>
-        <div class="simply-countdown"></div>
+        <div class="justify-content-center" style="margin-top: 100px;">
+          <h2 style="color:white;">بَارَكَ اللّٰهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ</h2>
+          <br>
+            <p style="font-size: 20px;">
+              Semoga Allah memberkahi kalian berdua, memberkahi atas kalian, dan mengumpulkan kalian berdua dalam kebaikan.
+            </p>
+        </div>
+        <!-- <p>Akan melangsungkan akad nikah dalam:</p>
+        <div class="simply-countdown"></div> -->
         <a href="#home" class="btn btn-lg mt-5" onClick="enableScroll()"
           >Lihat Undangan</a
         >
@@ -95,13 +119,20 @@
       <!-- <div class="container"> -->
         <div class="row justify-content-center">
           <div class="col-md-8 text-center">
-            <h5 style="color:white;">وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا لِّتَسْكُنُوْٓا اِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَّوَدَّةً وَّرَحْمَةًۗ اِنَّ فِيْ ذٰلِكَ لَاٰيٰتٍ لِّقَوْمٍ يَّتَفَكَّرُوْنَ ۝٢١</h2>
+            <h5 style="color:white;">وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا لِّتَسْكُنُوْٓا اِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَّوَدَّةً وَّرَحْمَةًۗ اِنَّ فِيْ ذٰلِكَ لَاٰيٰتٍ لِّقَوْمٍ يَّتَفَكَّرُوْنَ ۝٢١</h5>
             <br>
               <p>
               Di antara tanda-tanda (kebesaran)-Nya ialah bahwa Dia menciptakan pasangan-pasangan untukmu dari (jenis) dirimu sendiri agar kamu merasa tenteram kepadanya. Dia menjadikan di antaramu rasa cinta dan kasih sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.
             </p>
             <p>Qs. Ar - Rum 21</p>
           </div>
+          <!-- <div class="col-md-8 text-center" style="padding-top: 100px;">
+            <h5 style="color:white;">بَارَكَ اللّٰهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ</h5>
+            <br>
+              <p>
+                Semoga Allah memberkahi kalian berdua, memberkahi atas kalian, dan mengumpulkan kalian berdua dalam kebaikan.
+              </p>
+          </div> -->
         </div>
       <!-- </div> -->
     </section>
@@ -199,7 +230,7 @@
         </div>
 
         <div class="row justify-content-center mt-4">
-          <div class="col-md-5 col-10">
+          <!-- <div class="col-md-5 col-10">
             <div class="card text-center text-bg-light mb-5">
               <div class="card-header">Akad</div>
               <div class="card-body">
@@ -216,11 +247,9 @@
               </div>
               <div class="card-footer">
                 Lokasi : Ponpes Darul Falah II Tanfidzul Qur'an Tebuireng Ds. Cukir, Kec. Diwek Kab. Jombang
-                <!-- Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan
-                dan kekhusyuan seluruh prosesi. -->
               </div>
             </div>
-          </div>
+          </div> -->
 
           <div class="col-md-5 col-10">
             <div class="card text-center text-bg-light">
@@ -229,23 +258,25 @@
                 <div class="row justify-content-center">
                   <div class="col-md-6">
                     <i class="bi bi-clock d-block"></i>
-                    <span>09:00 - 20:00</span>
+                    <span>09:00 - 16:30</span>
                   </div>
                   <div class="col-md-6">
                     <i class="bi bi-calendar3 d-block"></i>
-                    <span>Selasa, 15 Oktober 2024</span>
+                    <span>Ahad, 27 Oktober 2024</span>
                   </div>
                 </div>
               </div>
               <div class="card-footer">
                 <!-- <p class="alamat"> -->
-                  Lokasi : Dsn. Kayen Ds. Morosunggingan Kec. Peterongan Kab. Jombang
+                  Lokasi : Halaman Gudang Stasiun Babat Kab. Lamongan
                 <!-- </p> -->
 
+                <br>
+                <br>
                 <div class="mapouter">
                   <div class="gmap_canvas">
                     <iframe width="100%" height="50%" id="gmap_canvas" 
-                      src="https://maps.google.com/maps?q=-7.524277,112.264633&t=&z=12&ie=UTF8&iwloc=&output=embed" 
+                      src="https://maps.google.com/maps?q=-7.1058739,112.1676126&t=&z=12&ie=UTF8&iwloc=&output=embed" 
                       frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
                     </iframe>
                     <style>.mapouter{position:relative;text-align:right;height:100%;width:100%;}</style>
@@ -262,16 +293,39 @@
         
         <br>
         <br>
-
-        <div class="row justify-content-center">
+        
+        <div class="row justify-content-center" style="max-width: 400px; margin: 0 auto;">
+          <img style="width: 35%!important; padding-bottom: 2px;" src="img/bca.png" >
+          <table class="table table-bordered " style="border-radius: 10px; overflow: hidden;">
+            <tbody>
+              <!-- <tr>
+                <td>Bank</td>
+                <td>BCA</td>
+              </tr>
+              <tr>
+                <td>Nomor rekening</td>
+                <td>2233 4455 6677 8899</td>
+              </tr> -->
+              <tr class="text-center">
+                <td style="font-size: 15px !important;">3301203061</td>
+                <td style="font-size: 15px !important;">A.N ACHMAD CHABIBI MUSTOFA</td>
+              </tr>
+            </tbody>
+          </table>
           <!-- <div class="col-md-5 col-10"> -->
-            <img style="width: 15%!important; padding-bottom: 5px;" src="img/bca.png" >
-            <br>
+            <!-- <img style="width: 15%!important; padding-bottom: 5px;" src="img/bca.png" > -->
+            <!-- <br>
             <h4 style="text-align: center; color: white;">NO. REK 3301203061</h4>
             <br>
-            <h5 style="text-align: center; color: white;">A.N / ACHMAD CHABIBI MUSTOFA</h5>
+            <h5 style="text-align: center; color: white;">A.N / ACHMAD CHABIBI MUSTOFA</h5> -->
 
           <!-- </div> -->
+          <h3 class="text-center" style="padding-top: 150px;">
+            Hormat kami
+          </h3>
+          <h5 class="text-center" style="padding-top: 10px;">
+            Keluarga M. EDI MUSTOFA Bin H.M. SUDJARI
+          </h5>
         </div>
 
       </div>
